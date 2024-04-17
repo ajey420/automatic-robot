@@ -1,0 +1,28 @@
+# EEG Classification Model
+
+### Project Overview
+
+This project focuses on the development and evaluation of EEG-based classification models. The project utilizes the **EEG-Based BCI Four-Class Wheelchair Application** dataset from Kaggle, which contains **EEG recordings** from $9$ subjects performing four different mental tasks associated with  movement 
+* Left Hand
+* Right Hand
+* Foot 
+* Tongue
+
+By leveraging advanced deep learning techniques, specifically **ATC-NET** models, we aimed to achieve high classification accuracy for each individual subject. 
+
+### Research Gap and Project Significance
+While existing BCI-based wheelchair control systems have demonstrated promising results, there are still challenges to overcome:
+
+* **Individual Variability** : EEG signals exhibit significant variation between individuals, making it difficult to create a "one-size-fits-all" model. This project addresses this issue by training separate ATC-NET models for each subject, tailoring the classification process to their unique brainwave patterns.
+
+* **Classification Accuracy** : Achieving high and reliable classification accuracy is crucial for practical BCI applications. Our project explores the capabilities of ATC-NETs, a deep learning architecture known for its effectiveness in handling complex EEG data, to optimize classification performance.
+
+* **Real-time Implementation** : Transitioning from offline analysis to real-time control is a significant challenge. This project lays the groundwork for future real-time implementation by establishing a robust foundation for accurate EEG classification.
+
+By addressing these research gaps, this project contributes to the advancement of BCI technology, offering the potential to enhance the quality of life for individuals with mobility limitations.
+
+### Further research directions could explore:
+
+* **Hybrid BCIs** : Combining EEG with other biosignals or control methods for more robust and flexible control.
+* **Adaptive models** : Developing models that continuously adapt to changes in user's EEG patterns over time.
+* **Miniaturization and wearability** : Investigating ways to make the BCI system more compact and user-friendly for daily life applications.

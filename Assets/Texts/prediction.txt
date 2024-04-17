@@ -1,0 +1,7 @@
+# Prediction Interface
+
+The interface provides the option to choose the Subject Number as well as the Sample Number. 
+
+* The range for Subject is $(1 , 9)$
+* The range for Sample is $(0 , 287)$
+

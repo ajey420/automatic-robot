@@ -1,0 +1,6 @@
+<style>
+    .stApp {
+        background-image: url("data:image/png;base64,%s");
+        background-size: cover;
+    }
+</style>
