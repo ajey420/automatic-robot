@@ -98,8 +98,8 @@ def prediction() :
                             subject-{subject}.h5
                         '''))
                     label = [
-                        'left_hand' , 
                         'right_hand' , 
+                        'left_hand' , 
                         'foot' , 
                         'tongue']
 
