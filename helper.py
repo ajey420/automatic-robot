@@ -8,7 +8,6 @@ import base_utilites as bu
 import matplotlib.pyplot as plt
 
 from models import ATCNet_
-from sklearn.utils import shuffle
 from sklearn.preprocessing import StandardScaler
 from tensorflow.keras.utils import to_categorical
 from sklearn.metrics import accuracy_score , cohen_kappa_score
