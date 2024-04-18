@@ -3,3 +3,4 @@ streamlit
 scipy
 numpy
 scikit-learn
+matplolib
