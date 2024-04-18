@@ -16,7 +16,7 @@ from sklearn.metrics import accuracy_score , cohen_kappa_score
 def set_background(png_file) : 
 
     bin_str = bu.get_base64(png_file)
-    page_bg_img = open('/workspaces/codespaces-blank/Assets/Texts/background_img.txt').read() % bin_str
+    page_bg_img = open('Assets/Texts/background_img.txt').read() % bin_str
 
     st.markdown(page_bg_img , unsafe_allow_html = True)
 
